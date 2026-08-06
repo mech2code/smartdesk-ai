@@ -1,0 +1,22 @@
+[
+  {
+    "message": "Can you help me?",
+    "expected_intent": "ambiguous"
+  },
+  {
+    "message": "Something happened and I am not sure what to do.",
+    "expected_intent": "ambiguous"
+  },
+  {
+    "message": "I have a question.",
+    "expected_intent": "ambiguous"
+  },
+  {
+    "message": "This is not what I expected.",
+    "expected_intent": "ambiguous"
+  },
+  {
+    "message": "Hello there.",
+    "expected_intent": "ambiguous"
+  }
+]

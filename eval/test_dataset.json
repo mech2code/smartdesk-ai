@@ -1,0 +1,242 @@
+[
+  {
+    "question": "How do I connect to VPN using Cisco AnyConnect?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Open Cisco AnyConnect, enter vpn.company.com, connect, and authenticate with your corporate username, password, and MFA code."
+  },
+  {
+    "question": "What is the VPN server address?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "The VPN server address is vpn.company.com."
+  },
+  {
+    "question": "How do I reset my corporate password?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Go to accounts.company.com/reset, enter your corporate email, click Send Reset Link, and follow the instructions in the email."
+  },
+  {
+    "question": "What are the password requirements?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Passwords must be at least 12 characters with uppercase, lowercase, a number, and a special character. Cannot reuse the last 10 passwords."
+  },
+  {
+    "question": "How do I set up MFA with Microsoft Authenticator?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Install Microsoft Authenticator, go to mfa.company.com, add an authenticator app, scan the QR code, and verify with a test notification."
+  },
+  {
+    "question": "What MFA methods are supported?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Microsoft Authenticator (recommended), Google Authenticator, SMS one-time code (backup only), and hardware token (YubiKey) for admins."
+  },
+  {
+    "question": "How do I install software on my company laptop?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Use Software Center (Windows) or Self Service (macOS) to install pre-approved software. For new software, submit a request at it-portal.internal/software-request."
+  },
+  {
+    "question": "How do I configure Outlook on my phone?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Install Microsoft Outlook from App Store or Google Play, tap Add Account, enter your corporate email, and sign in with your password and MFA."
+  },
+  {
+    "question": "What is the Wi-Fi network for employees?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "The corporate Wi-Fi network is CORP-SECURE. Connect with your corporate username and password, with MFA if prompted."
+  },
+  {
+    "question": "How do I give a visitor Wi-Fi access?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Go to wifi-portal.internal/sponsor, enter the guest's name and contact info, select the duration, and click Create. The guest receives an access code."
+  },
+  {
+    "question": "How many vacation days do employees get?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Full-time employees receive 15 days of paid vacation per year for the first 3 years and 20 days from year 4 onwards."
+  },
+  {
+    "question": "What health insurance plans are available?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "The company offers Basic HMO, Standard PPO, and Premium PPO plans. Open enrollment is in November."
+  },
+  {
+    "question": "How do I request time off?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Submit a leave request through the HR portal at hr-portal.internal/leave at least 2 weeks in advance for vacations of 3 or more days."
+  },
+  {
+    "question": "Does the company match 401k contributions?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Yes, the company matches 100% of contributions up to 4% of salary, vesting over a 3-year schedule."
+  },
+  {
+    "question": "What is the remote work policy?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "The standard hybrid model is 3 days in-office and 2 days remote per week. Employees must be available during core hours 10 AM to 3 PM."
+  },
+  {
+    "question": "When is payday?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Employees are paid bi-weekly on every other Friday."
+  },
+  {
+    "question": "How do I report workplace harassment?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Report incidents to your HR Business Partner, your manager if they are not the offending party, or anonymously via the ethics hotline."
+  },
+  {
+    "question": "What is the parental leave policy?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Primary caregivers receive 16 weeks of paid parental leave. Secondary caregivers receive 4 weeks."
+  },
+  {
+    "question": "Does the company offer a home office stipend?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "New remote employees receive a one-time $500 home office setup stipend, submitted within 60 days."
+  },
+  {
+    "question": "How do I access my pay stubs?",
+    "domain": "hr",
+    "answerable": true,
+    "ground_truth": "Pay stubs are available in the HR portal under Payroll then Pay History."
+  },
+  {
+    "question": "How do I fix my flickering monitor?",
+    "domain": "it",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "What is the parking policy?",
+    "domain": "hr",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "How do I request a standing desk?",
+    "domain": "it",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "What are the cafeteria hours?",
+    "domain": "hr",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "How do I get a company credit card?",
+    "domain": "hr",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "What happens after five incorrect password attempts?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "The account is locked after five incorrect attempts. Wait 15 minutes for the lock to clear automatically, or use the self-service reset page."
+  },
+  {
+    "question": "How long is a password reset link valid?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "A password reset link is valid for 30 minutes."
+  },
+  {
+    "question": "What should I do if AnyConnect shows an untrusted-server certificate error?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Do not proceed on a company network and contact IT immediately. On a home network, restart the router because it may be a DNS problem."
+  },
+  {
+    "question": "Which Ubuntu versions support the company VPN?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "The supported Linux versions are Ubuntu 20.04 LTS and Ubuntu 22.04 LTS."
+  },
+  {
+    "question": "What should I do if Software Center shows no applications?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Connect to the corporate network or VPN, restart the Intune or Jamf management agent, and contact IT if the problem continues."
+  },
+  {
+    "question": "How long does IT Security take to review a new software request?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "IT Security reviews software requests within three business days."
+  },
+  {
+    "question": "How long is a guest Wi-Fi session passcode valid?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "A guest passcode is valid for eight hours, or one day for contractors."
+  },
+  {
+    "question": "What can I do when MFA push notifications are not arriving?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Enable notification permissions, check Do Not Disturb settings, or use the TOTP code shown in the authenticator app."
+  },
+  {
+    "question": "Can I install a torrent client on my company laptop?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "No. Torrenting clients such as BitTorrent and uTorrent are prohibited software."
+  },
+  {
+    "question": "What applications need attention after I reset my password?",
+    "domain": "it",
+    "answerable": true,
+    "ground_truth": "Update saved browser passwords and re-authenticate mobile applications and Cisco AnyConnect. All active sessions are signed out."
+  },
+  {
+    "question": "How do I request access to the office 3D printer?",
+    "domain": "it",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "Can IT configure my personal smart watch?",
+    "domain": "it",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "Where are the data-center emergency generators located?",
+    "domain": "it",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "What brand of office chair does the company purchase?",
+    "domain": "hr",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  },
+  {
+    "question": "Can I bring a pet snake into the office?",
+    "domain": "hr",
+    "answerable": false,
+    "ground_truth": "ESCALATE"
+  }
+]
